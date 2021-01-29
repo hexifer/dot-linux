@@ -1,0 +1,11 @@
+- defaults:
+    link:
+      relink: true
+
+- create:
+    - ~/.config
+    - ~/.config/i3
+
+- link:
+    ~/.Xresources: .Xresources
+    ~/.config/i3/config: i3/config
