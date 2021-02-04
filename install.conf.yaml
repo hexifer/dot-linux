@@ -5,6 +5,7 @@
 - create:
     - ~/.config
     - ~/.config/i3
+    - ~/.tmux
 
 - link:
     ~/.xinitrc: .xinitrc
@@ -12,5 +13,6 @@
     ~/.zshrc: .zshrc
     # tmux
     ~/.tmux.conf: config/tmux/.tmux.conf
+    ~/.tmux/.tmux.remote.conf: config/tmux/.tmux.remote.conf
     # i3
     ~/.config/i3/config: config/i3/config
