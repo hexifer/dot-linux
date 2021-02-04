@@ -14,5 +14,7 @@
     # tmux
     ~/.tmux.conf: config/tmux/.tmux.conf
     ~/.tmux/.tmux.remote.conf: config/tmux/.tmux.remote.conf
+    # tmux: tpm
+    ~/.tmux/plugins/tpm: submodules/tpm
     # i3
     ~/.config/i3/config: config/i3/config

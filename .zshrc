@@ -33,5 +33,7 @@ antigen theme ys
 
 # aliases
 # alias tmux="tmux -2"
+alias xv="expressvpn connect"
+alias vx="expressvpn disconnect"
 
 antigen apply
