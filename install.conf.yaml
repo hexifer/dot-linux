@@ -7,5 +7,8 @@
     - ~/.config/i3
 
 - link:
+    ~/.xinitrc: .xinitrc
     ~/.Xresources: .Xresources
     ~/.config/i3/config: i3/config
+    ~/.zshrc: .zshrc
+    ~/.tmux.conf: .tmux.conf
