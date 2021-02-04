@@ -9,6 +9,8 @@
 - link:
     ~/.xinitrc: .xinitrc
     ~/.Xresources: .Xresources
-    ~/.config/i3/config: i3/config
     ~/.zshrc: .zshrc
-    ~/.tmux.conf: .tmux.conf
+    # tmux
+    ~/.tmux.conf: config/tmux/.tmux.conf
+    # i3
+    ~/.config/i3/config: config/i3/config
