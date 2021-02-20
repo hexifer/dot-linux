@@ -14,6 +14,7 @@ fi
 unset __conda_setup
 # <<< conda initialize <<<
 
+
 # source antigen
 source $DOTLINUX/submodules/antigen/antigen.zsh
 
@@ -35,5 +36,7 @@ antigen theme ys
 # alias tmux="tmux -2"
 alias xv="expressvpn connect"
 alias vx="expressvpn disconnect"
+
+alias caa="conda activate"
 
 antigen apply

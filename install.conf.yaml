@@ -9,8 +9,8 @@
 
 - link:
     ~/.xinitrc: .xinitrc
-    ~/.Xresources: .Xresources
-    ~/.zshrc: .zshrc
+    # zsh
+    ~/.zshrc: config/zsh/.zshrc
     # tmux
     ~/.tmux.conf: config/tmux/.tmux.conf
     ~/.tmux/.tmux.remote.conf: config/tmux/.tmux.remote.conf
