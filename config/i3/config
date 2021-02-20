@@ -16,7 +16,6 @@ client.background       #F8F8F2
 # Start i3bar to display a workspace bar 
 # (plus the system information i3status finds out, if available)
 bar {
-    # status_command i3status --config ~/.linux/i3/i3status.conf
     status_command i3status
     position       top
      
@@ -43,12 +42,10 @@ set $left j
 set $right semicolon
 
 # start a terminal
-bindsym $mod+Return exec urxvt
+bindsym $mod+Return exec xfce4-terminal
 
 # use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
-
-
 
 # kill focused window
 bindsym $mod+Shift+q kill
@@ -174,4 +171,3 @@ mode "resize" {
 }
 
 bindsym $mod+r mode "resize"
-
